@@ -65,12 +65,16 @@
 .svg-img{
     width: 100px;
 }
+.client-content{
+  margin-top: 100px;
+}
 
 .client-title{
     font-size: 2rem;
     font-weight: 800;
     text-align: center;
 }
+
 .client-img{
         width: 150px;
         display: block;
@@ -84,4 +88,42 @@
     width: 700px;
     margin: 0px auto;
     
+}
+.background-input{
+   background-image: url(./../images/contact-bg.jpg);
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+.input-field{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.input-title{
+  text-align: center;
+}
+
+.input-field input{
+  padding: 10px;
+  margin: 10px;
+  
+}
+.input-btn{
+  background-color: yellow;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    width: 150px;
+    margin: 10px auto;
+    
+}
+.input-btn:hover {
+  background-color: white;
+  color: yellow;
+  border: 1px solid yellow;
 }
