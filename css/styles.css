@@ -65,3 +65,23 @@
 .svg-img{
     width: 100px;
 }
+
+.client-title{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.client-img{
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.client-name{
+    text-align: center;
+}
+.client-description{
+    width: 700px;
+    margin: 0px auto;
+    
+}
